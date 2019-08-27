@@ -1,0 +1,28 @@
+Package: influxdbrv2
+Type: Package
+Title: R Interface to InfluxDB
+Version: 0.14.3.9000
+Date: 2018-09-18
+Authors@R: c(person("Dominik", "Leutnant", email = "leutnant@fh-muenster.de", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-3293-2315")), person("Gerhard", "Nachtmann", email = "kpm.nachtmann@gmail.com", role = "ctb"), person("Vitalie", "Spinu", email = "spinuvit@gmail.com", role = "ctb"))
+Description: An R interface to the InfluxDB time series database <https://www.influxdata.com>. This package allows you to fetch and write time series data from/to an InfluxDB server. Additionally, handy wrappers for the Influx Query Language (IQL) to manage and explore a remote database are provided. 
+License: GPL-3
+ByteCompile: TRUE
+URL: https://github.com/dleutnant/influxdbr
+BugReports: http://github.com/dleutnant/influxdbr/issues
+Imports:
+    dplyr (>= 0.7.0),
+    jsonlite,
+    httr,
+    magrittr,
+    progress,
+    purrr (>= 0.2.3),
+    rlang,
+    tibble,
+    tidyr,
+    xts,
+    zoo,
+    forecast
+RoxygenNote: 6.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE, roclets = c("rd", "namespace", "collate"))
+Suggests: testthat
