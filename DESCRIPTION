@@ -20,8 +20,7 @@ Imports:
     tibble,
     tidyr,
     xts,
-    zoo,
-    forecast
+    zoo
 RoxygenNote: 6.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE, roclets = c("rd", "namespace", "collate"))
